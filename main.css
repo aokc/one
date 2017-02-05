@@ -1,3 +1,4 @@
+
 h1{ color: #019BD9 }
 ul{
     list-style-type: decimal;
@@ -7,8 +8,21 @@ ul{
     font-weight: 700;
 }
 div{
-    background: rgba(209, 214, 216, 0.29);
+    color: red;
+    background: rgba(209, 214, 216, 0);
     padding: 5px 20px;
     margin: -10px;
     font-family: "Times New Roman"
+}
+
+p{
+  border: 2px solid red;
+  height: 1em;
+  width: 6em;
+  padding: .5em;
+  color: #000000;
+}
+input[type="button"]{
+  width: 3em;
+  font-size: 2em;
 }
