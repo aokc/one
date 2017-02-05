@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!doctype html>
 <html>
 <head>
@@ -21,3 +22,38 @@
 
 </body>
 </html>
+=======
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Untitled Document</title>
+    <script src="https://d3js.org/d3.v3.js"></script>
+</head>
+<body>       
+    <script>
+        var arr = [85, 60, 99, 49, 77, 82];
+        var body = d3.select("body");
+        for(var i=0; i<arr.length; i++){
+            if(arr[i]<60){
+                body.append("div").text(arr[i]).style({color: "red"});
+            }
+            else{
+                body.append("div").text(arr[i]); //預設是黑色
+            }
+        }                             
+</script>                                     
+</body>
+</html>
+
+
+
+
+myShoes = {
+    brand: "abc",
+    size: 9,
+    price: 1000,
+    forFemale: false
+}
+>>>>>>> master
